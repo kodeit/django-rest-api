@@ -1,5 +1,4 @@
 from rest_framework import viewsets
-from rest_framework.generics import ListAPIView
 
 from users.models import UserInfo
 from .serializers import UserInfoSerializer
